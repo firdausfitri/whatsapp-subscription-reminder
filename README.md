@@ -49,13 +49,13 @@ I needed a simple system that:
 ## Code Structure
 
 This repository contains a simplified and sanitized version of the production system.
-
+```text
 apps-script/
 ├── core-engine.gs      # Expiry check & scheduling logic
 ├── whatsapp-client.gs # WhatsApp send abstraction (sanitized)
 ├── health-check.gs    # Health checks & failure detection
 ├── utils.gs           # Helpers (date handling, formatting)
-
+```
 Sensitive configuration values (API keys, phone numbers, IDs) are intentionally omitted.
 
 ---
